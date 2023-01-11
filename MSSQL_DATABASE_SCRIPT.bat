@@ -3,10 +3,10 @@ ECHO OFF
 set BACKUPPATH=D:\DB_BACKUP
 
 :: set name of the server and instance
-set SERVERNAME=EC2AMAZ-EL0812P\SQLEXPRESS
+set SERVERNAME=LOCALHOST\SQLEXPRESS
 
 :: set database name
-set DATABASENAME=LiveFaztrex
+set DATABASENAME=DB_NAME
 
 :: filename format Name-Date
 For /f "tokens=2-4 delims=/ " %%a in ('date /t') do (set mydate=%%c-%%a-%%b)
